@@ -1,2 +1,2 @@
 # jpfm-chef-cookbooks
-Chef Cookbooks for JPFM Labs
+This is the main repo for the Chef-based configuration management automation code used at JPFM Labs. It is built on the [attribute-driven-API cookbooks](https://github.com/facebook/chef-cookbooks) maintained by Facebook. This model for using Chef is not the traditional way most people use Chef, so it worth reading this post on the [History of the Facebook Chef Cookbooks](https://engineering.fb.com/2016/04/15/core-data/facebook-chef-cookbooks/) and watching this [presentation](https://www.youtube.com/watch?v=-YtZiVxEiJ8) made by Phil Dibowitz when the code was open sourced.
