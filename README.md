@@ -7,7 +7,7 @@ The goals for using infrastructure automation this way (refer to Phil's talks ab
 - Can be supported by a very small infrastructure automation team
 - Scales to ten of thousands of heterogeneous systems
 - Permits self-service maintenance of any relevant settings for service owners that scales to even very large organizations
-- Integrates nicely with any internal systems, even ones not maintenance by the infrastructure automation team
+- Integrates nicely with any internal systems, even ones not maintained by the infrastructure automation team
 
 The workflow involves:
 - Easy abstractions through "Configuration as Data": configuration can be extended by anyone, anywhere by munging data structures
