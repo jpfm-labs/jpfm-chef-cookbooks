@@ -10,8 +10,8 @@ The goals for using infrastructure automation this way (refer to Phil's talks ab
 - Integrates nicely with any internal systems, even ones not maintained by the infrastructure automation team
 
 The workflow involves:
-- Easy abstractions through "Configuration as Data": configuration can be extended by anyone, anywhere by munging data structures
-- No need for systems knowledge: engineers don't need to know the details of what they're building on, just what they want to change
-- Change without fear: engineers can change their systems without fear of any unintended side-effects - the blast raidus is limited
-- Testing (in production): testing against real systems, safely, is useful and necessary, and should be easy
-- Idempotent systems, not idemptent records, for easy rollback
+- **Easy abstractions through "Configuration as Data"**. Configuration can be extended by anyone, anywhere by munging data structures
+- **No need for systems knowledge**. Engineers don't need to know the details of what they're building on, just what they want to change
+- **Change without fear**. Engineers can change their systems without fear of any unintended side-effects - the blast raidus is limited
+- **Testing (in production)** Testing against real systems, safely, is useful and necessary, and easy
+- **Idempotent systems**, not idemptent records, for easy rollback
